@@ -36,4 +36,16 @@ public class StepDefinitionsOne {
 
 	}
 	
+	
+	
+	@Given("I run background")
+	public void i_run_background() {
+	    System.out.println("I run background");
+	}
+	@Then("Background is run")
+	public void background_is_run() {
+	    System.out.println("Background is run");
+
+	}
+	
 }
